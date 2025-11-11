@@ -4,7 +4,7 @@ CV profesional publicado como página estática en GitHub Pages.
 
 ## 🚀 Ver el CV
 
-Visita: [https://tu-usuario.github.io/alejandro-cv/](https://tu-usuario.github.io/alejandro-cv/)
+Visita: [https://alejamp.github.io/cv/](https://alejamp.github.io/cv/)
 
 ## 💻 Desarrollo Local
 
@@ -42,7 +42,7 @@ Para probar el CV localmente con auto-reload:
 2. Navega a **Settings** → **Pages**
 3. En **Source**, selecciona la rama `main` (o `master`)
 4. Guarda los cambios
-5. Tu sitio estará disponible en: `https://tu-usuario.github.io/alejandro-cv/`
+5. Tu sitio estará disponible en: [https://alejamp.github.io/cv/](https://alejamp.github.io/cv/)	
 
 ### Opción 2: Usando GitHub Actions (recomendado)
 
