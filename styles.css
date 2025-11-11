@@ -49,12 +49,21 @@ body {
     flex-wrap: wrap;
 }
 
-.avatar {
+.profile-image {
     width: 120px;
     height: 120px;
+    flex-shrink: 0;
     border-radius: 50%;
-    object-fit: cover;
+    overflow: hidden;
     border: 4px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     display: block;
 }
 
@@ -360,6 +369,24 @@ body {
 .generating-pdf .project-card {
     page-break-inside: avoid;
     break-inside: avoid;
+}
+
+.generating-pdf .profile-image {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    flex-shrink: 0 !important;
+    border: 4px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.generating-pdf .avatar {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 0 !important;
+    border: none !important;
 }
 
 @media print {
